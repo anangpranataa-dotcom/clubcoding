@@ -75,7 +75,7 @@ in [`design-log/`](../design-log/index.md); roles and rituals live in
 | AP-005 | Flutter shell: router, Riverpod, theme, flavors, error/result types | MOB-A | M | 2 | AP-001 | 0003 | Review |
 | AP-006 | Admin shell: Vite + React + TS + Tailwind, Supabase client, query provider | WEB | S | 1.5 | AP-001 | 0004 | Todo |
 | AP-007 | CI gates: format, analyze, test (mobile), tsc + eslint (admin), branch protection | TL | S | 1 | AP-005, AP-006 | 0001 | Todo |
-| AP-008 | UX flows for report/map/alerts/verify + design tokens (color, type, spacing) | QA | M | 2.5 | AP-001 | 0005 | Todo |
+| AP-008 | UX flows for report/map/alerts/verify + design tokens (color, type, spacing) | QA | M | 2.5 | AP-001 | 0005 | Review |
 | AP-009 | Map base layer, OSM + Esri tiles, attribution, offline tile cache config | MOB-B | S | 1.5 | AP-005 | — | Todo |
 | AP-010 | OTP auth end-to-end (phone + email fallback) with role claim | MOB-A / BE | M | 2.5 | AP-002, AP-005 | 0006 | Todo |
 | AP-011 | FCM project, Android config, token registration spike | MOB-B | S | 1 | AP-005, AP-002 | — | Todo |
@@ -281,3 +281,4 @@ clean, design log results appended, index updated, cross-seat review approved.
 | Date | Change | By |
 |---|---|---|
 | 2026-10-31 | Initial backlog: 52 P0 tasks across 8 epics, 6 seats, M1–M5 distribution | TL |
+| 2026-11-07 | AP-008: DL-0005 + `docs/ux/` deliverables written (4 flows, tokens, copy, components); AP-008 → Review | QA |
